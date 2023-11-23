@@ -339,27 +339,6 @@ export function FormUpdateDoctor() {
                 <input type="text" id='cep' placeholder='CEP' { ...register('cep') }/>
             </div>
 
-            <div className={styles['div-checkbox']}>
-                <h3>Turnos de Atendimento</h3>
-
-                <div>
-                    <div className={styles['box-checkbox']}>
-                        <label htmlFor="manha">Manhã</label>
-                        <input type="checkbox" name="manha" id="manha" />
-                    </div>
-
-                    <div>
-                        <label htmlFor="tarde">Tarde</label>
-                        <input type="checkbox" name="tarde" id="tarde" />
-                    </div>
-
-                    <div>
-                        <label htmlFor="noite">Noite</label>
-                        <input type="checkbox" name="noite" id="noite" />
-                    </div>
-                </div>
-            </div>
-
             <div className={styles['box-btns']}>
                 <button type="submit" className={styles['btn-exclude']}>Excluir Conta</button>
                 <button type="submit" className={styles['btn-update']}>Atualizar Dados</button>
