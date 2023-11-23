@@ -39,6 +39,15 @@ Este projeto foi realizado em equipe, seguindo o método Scrum, com o objetivo d
 <p>✔ Consulta de Pré-Diagnósticos</p>
 <p>✔ Responsividade</p>
 
+## Comandos para Rodar a API
+
+<p>Antes certique-se de ter o node e yarn instalado em sua máquina.</p>
+
+<ul>
+    <li>yarn</li>
+    <li>yarn dev</li>
+</ul>
+
 ## ⚙ Características
 <ul>
     <li>TypeScript utilizado com React.</li>
